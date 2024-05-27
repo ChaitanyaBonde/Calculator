@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-color: rgb(91, 88, 88);
+    height: 100vh;
+    /* margin: \; */
+}
+.in{
+    background-color: rgb(197, 197, 197);
+    height: 400px;
+    width: 250px;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    border: 5px solid rgb(4, 4, 93);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.txt{
+    height: 70px;
+    background-color: rgb(197, 197, 197);
+    margin-top: 30px;
+    width: 96%;
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: end;
+    padding-right: 10px;
+    padding-top:10px ;
+    border:     0px solid;
+}
+.txt:focus{
+    border: none;
+}
+.grpbtn{
+    height: 75%;
+    /* background-color: beige; */
+    
+    /* border:      2px solid black; */
+    margin-top: 10px;
+    border-radius: 0px 0px 10% 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.btn{
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    margin: 2px;
+    border: none;
+    font-size: 15px;
+}
+
+.btn2{
+    background-color: rgb(159, 159, 159);
+}
+
+.btn2:hover{
+    background-color:rgb(123, 122, 122) ;
+}
+.btn1:hover{
+    background-color: rgb(181, 180, 180);
+}
+.btn3{
+    background-color: blue;
+}
+.btn3:hover{
+    background-color: rgb(0, 0, 137);
+}
